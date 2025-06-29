@@ -1,0 +1,92 @@
+/* Reset básico e estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.app {
+    width: 100%;
+    max-width: 600px;
+    background-color: #3b4049;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Cabeçalho e formulário */
+.cabecalho h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form-nova-tarefa {
+    display: flex;
+    gap: 10px; /* Espaço entre o input e o botão */
+}
+
+#input-nova-tarefa {
+    flex-grow: 1; /* Faz o input ocupar todo o espaço disponível */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#form-nova-tarefa button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #61dafb;
+    color: #282c34;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer; /* Muda o cursor para uma "mãozinha" ao passar por cima */
+    transition: background-color 0.2s; /* Efeito suave na cor de fundo */
+}
+
+#form-nova-tarefa button:hover {
+    background-color: #52b8d8;
+}
+
+/* Seção da lista de tarefas */
+.lista-de-tarefas {
+    margin-top: 30px;
+}
+
+#lista-tarefas li {
+    background-color: #4a505c;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-deletar {
+    background-color: #e06c75;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+}
+.botao-deletar:hover {
+    background-color: #c95660;
+}
+/* Estilo para o item da tarefa quando concluída */
+.tarefa-concluida .texto-tarefa {
+    text-decoration: line-through; /* Adiciona uma linha sobre o texto */
+    color: #888; /* Deixa o texto com um tom de cinza */
+}
