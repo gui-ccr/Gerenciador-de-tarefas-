@@ -3,7 +3,7 @@
 Uma aplicação web clássica de Lista de Tarefas (To-Do List) construída do zero com HTML, CSS e JavaScript puro. Este projeto serviu como um estudo prático e aprofundado dos conceitos fundamentais de manipulação do DOM, gerenciamento de estado e persistência de dados no navegador.
 
 ### 🔗 Link para a Demonstração
-*(Adicione aqui o link do seu projeto após hospedá-lo no GitHub Pages ou similar)*
+### 🔗 [Clique aqui para a demonstração ao vivo](https://gui-ccr.github.io/Gerenciador-de-tarefas-/) 
 
 ---
 
