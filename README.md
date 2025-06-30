@@ -15,7 +15,7 @@ Uma aplicação web clássica de Lista de Tarefas (To-Do List) construída do ze
 * **Persistência de Dados:** As tarefas e seus status (concluída ou não) permanecem salvos mesmo após recarregar ou fechar a página, graças ao uso do `localStorage` do navegador.
 
 ### 📸 Screenshot
-![Screenshot do Gerenciador de Tarefas](URL_DA_SUA_IMAGEM_AQUI.png)
+![Screenshot do Gerenciador de Tarefas](/image.png)
 *(**Nota:** Tire um print da sua aplicação funcionando, adicione o arquivo à pasta do projeto e substitua o texto acima pelo nome do arquivo de imagem.)*
 
 ---
